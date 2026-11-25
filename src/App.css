@@ -1,0 +1,49 @@
+.lista {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+}
+
+.tarjeta {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 12px;
+}
+
+.tarjeta h3 {
+  margin: 0 0 4px;
+  font-size: 1rem;
+}
+
+.tarjeta p {
+  margin: 0 0 8px;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.etiqueta {
+  display: inline-block;
+  font-size: 0.75rem;
+  padding: 2px 8px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+
+.verde {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.gris {
+  background: #e5e7eb;
+  color: #444;
+}
+
+.tarjeta button {
+  display: block;
+}
+
+.boton-peligro {
+  border-color: #c0392b;
+  color: #c0392b;
+}
